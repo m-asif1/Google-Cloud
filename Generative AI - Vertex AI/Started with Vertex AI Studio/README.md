@@ -17,7 +17,7 @@ How to:
 - **Open Google Cloud console** use your Google Cloud account credentials
 - Google Cloud console opens in this tab
 - To access Google Cloud products and services, click the **Navigation menu** or type the service or product name in the **Search** field.
-![alt text](images\image.png)
+![alt text](images/image.png)
 
 ### **Analyze images with Gemini in Freeform mode**
 use Gemini to analyze an image and extract information from it. In Freeform mode, you can design prompts for various tasks such as classification, extraction, and generation. There is no conversation history in Freeform mode, so every prompt is a brand-new request to the model.
@@ -27,11 +27,11 @@ use Gemini to analyze an image and extract information from it. In Freeform mode
 2. Click on the result for **Vertex AI API** under Marketplace & APIs.
 3. Click **Enable**.
 
-![alt text](images\image-1.png)
+![alt text](images/image-1.png)
 
 #### Analyze images with Gemini
 1. In the Google Cloud console, from the **Navigation menu**, select **Vertex AI > Vertex AI Studio > Overview**.
-![alt text](images\image-2.png)
+![alt text](images/image-2.png)
 
 2. Under **Generate with Gemini**, click **Open Freeform**.
 
@@ -41,18 +41,18 @@ The UI contains three main sections:
 - **Configuration** (located on the right): This section allows you to select models, configure parameters, and obtain the corresponding code.
 - **Response** (located at the bottom): This section displays the results of your prompt.
 
-![alt text](images\image-3.png)
+![alt text](images/image-3.png)
 
 3. On the top left, click **Untitled Prompt** and rename your prompt as `Image Analysis`.
 4. In the **Configuration** section on the top right, click on the **Model** dropdown then select the `model name` model.
 5. For **Region**, select `Region`.
 6. Timetable image save it to your desktop.
 
-![alt text](images\image-4.png)
+![alt text](images/image-4.png)
 
 7. On the top right of the **Prompt** section, click **Insert media > Upload**. Upload the timetable image you downloaded. The media can be in the form of an image, video, text, or audio file.
 
-![alt text](images\image-5.png)
+![alt text](images/image-5.png)
 
 8. The image will be displayed inside of the **Prompt** section. Copy the following text and paste it under the image and click on the **Submit** button on the bottom right of the Prompt section.
 ```
@@ -282,7 +282,7 @@ You can design prompts in more organized ways. You can provide **Context** and *
 1. Start by removing any text from the **Prompt** box.
 2. Inside of the **Prompt** box, click **Add examples**. This will open a new window where you can add examples for the prompt.
 
-![alt text](images\image-6.png)
+![alt text](images/image-6.png)
 
 3. Add this to the **INPUT** field:
 ```
@@ -323,7 +323,7 @@ For the next practice, you will use the model to perform sentiment analysis on a
 
 1. In the **Prompt*** field, delete your examples from the previous section. To delete your examples, hover over the **Examples** and click the **X** (Remove File) button.
 
-![alt text](images\image-7.png)
+![alt text](images/image-7.png)
 
 2. Click the **Add examples** button to add more examples.
 3. Add the following examples:
@@ -336,7 +336,7 @@ For the next practice, you will use the model to perform sentiment analysis on a
 
 4. Once you have added the examples, click on the **Add examples** button.
 
-![alt text](images\image-8.png)
+![alt text](images/image-8.png)
 
 5. In the **Test** field, copy the following in the **Input** field.
 ```
@@ -346,7 +346,7 @@ It was a time well spent!
 
 6. Click on the **Submit** button.
 
-![alt text](images\image-9.png)
+![alt text](images/image-9.png)
 
 The model now provides a sentiment for the input text. For the text It was a time well spent!, the sentiment is labeled as positive.
 
