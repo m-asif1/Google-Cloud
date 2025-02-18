@@ -42,7 +42,7 @@ Before starting, you should be familiar with:
 - **Open Google Cloud console** use your Google Cloud account credentials
 - Google Cloud console opens in this tab
 - To access Google Cloud products and services, click the **Navigation menu** or type the service or product name in the **Search field**.
-![alt text](images\image.png)
+![alt text](images/image.png)
 
 ### **Open the notebook in Vertex AI Workbench**
 
